@@ -1,6 +1,8 @@
 apply plugin: 'com.android.library'
 
 android {
+    namespace 'cn.dreamtobe.kpswitch'
+
     compileSdkVersion COMPILE_SDK_VERSION as int
     buildToolsVersion BUILD_TOOLS_VERSION as String
 
@@ -16,4 +18,4 @@ android {
     }
 }
 
-apply from: rootProject.file('gradle/gradle-mvn-push.gradle')
+// apply from: rootProject.file('gradle/gradle-mvn-push.gradle')
